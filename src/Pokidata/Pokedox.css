@@ -1,0 +1,32 @@
+
+.pokcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px;
+    margin: 30px;
+}
+
+/* .pokitems{
+  
+}
+
+.pokimg{
+  
+} */
+
+.pokdetails{
+    padding-left: 15px;
+    
+}
+
+.poktypes{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 10vw;
+    padding-left: 15px;
+   
+}
+

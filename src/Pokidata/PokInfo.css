@@ -1,0 +1,103 @@
+
+.Detailscontainer{
+    width: 60vw;
+    height: 80vh;
+    padding: 0px 300px;
+}
+
+.Detailsitem{
+    display: flex;
+    gap: 30px;
+    padding-left: 300px;
+}
+
+.Pokqualities{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    
+}
+
+
+.pokthings{
+    display: grid;
+    grid-template-areas: 
+    "Height Category"
+    ;
+    height: 30vh;
+    width: 20vw;
+    padding: 50px;
+    background-color: #30a7d7;
+    border-radius: 10px;
+}
+
+.poktype{
+    display:flex;
+    gap: 20px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.pokstats{
+    width: 50vw;
+    height: 50vh;
+    padding: 0px 40px;
+}
+
+
+/* POK STATS */
+
+.vStatsBox {
+  background: #a9a9a9;
+  padding: 20px;
+  border-radius: 14px;
+  margin-top: 30px;
+}
+
+.vStatsBox h3 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.vStatsGrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 180px;
+}
+
+.vStatItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45px;
+}
+
+.vBar {
+  height: 140px;
+  width: 100%;
+  background: repeating-linear-gradient(
+    to top,
+    #e0e0e0 0px,
+    #e0e0e0 12px,
+    #cfcfcf 12px,
+    #cfcfcf 16px
+  );
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.vBarFill {
+  width: 100%;
+  background: #2aa8df;
+  transition: height 0.6s ease;
+}
+
+.vStatLabel {
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: capitalize;
+}
